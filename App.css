@@ -1,0 +1,1312 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+.nav{
+    background-color: rgb(32, 32, 97);
+    color: white;
+    font-family:sans-serif;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    position:sticky;
+    
+}
+.title{
+    margin-left: 2vw;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.links{
+    margin-right: 2vw;
+}
+.links button{
+    display: inline;
+    margin: 1vh 0.5vw;
+    background-color: rgb(229, 12, 12);
+    padding: 5px 15px;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    border-style: none;
+}
+.switch li{
+    display: inline;
+    margin: 1vh 1vw;
+    border-radius: 16px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.switch li:hover{
+    color: rgb(183, 237, 21);
+    transition: 0.1s;
+    font-size: 21px;
+
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    background-image: url('../src/components/l2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 65vh;
+    justify-self: center;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    margin-left: 35vw;
+    border-color: rgb(218, 218, 218);
+}
+.submitform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form h1{
+    font-size: 50px;
+    color: white;
+    /* opacity:unset; */
+}
+form input{
+    height: 30px;
+    margin: 2vh;
+    width: 24vw;
+    outline: none;
+    border-style: none;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+form .button{
+    height: 35px;
+    margin: 1vh;
+    width: 25%;
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    background-color: rgb(81, 98, 158);
+    color: white;
+    font-size: 20px;
+}
+
+form .button:hover{
+    background-color: rgb(30, 58, 160)
+}
+form button{
+    height: 45px;
+    margin: 1vh;
+    width: 65%;
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    color: white;
+    background: transparent;
+    font-size: 21px;
+}
+
+.blogformat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3vh;
+    width: 700px;
+    padding: 10px;
+    box-shadow: 20px 10px 30px 10px rgb(170, 168, 168);
+}
+.blogimage{
+    height: 300px;
+    width: 700px;
+    align-self: center;
+}
+.addblog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+}
+.addform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.add{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 80vh;
+    padding: 10px;
+    box-shadow: 20px 10px 30px 10px rgb(170, 168, 168);
+}
+.addform img{
+    height: 300px;
+    width: 700px;
+    align-self: center;
+    margin-bottom: 2vh;
+}
+
+.addform input{
+    height: 30px;
+    margin: 2vh;
+    width: 38vw;
+    outline: none;
+    border-style: solid;
+    box-shadow: 10px 10px 20px #ccc;
+    padding: 5px;
+    border-radius: 1px;
+
+}
+.addform h1{
+    margin-bottom: 3vh;
+    color: black;
+}
+.addform .editdesc{
+    margin-left: -32vw;
+}
+.addform .edittitle{
+    margin-left: -36vw;
+}
+.avtar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.profile{
+    background-color: green;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    border-radius:50%;
+    margin: 1vh 1vw 2vh 0vw;
+}
+.uname{
+    margin: 1vh 2vw 2vh 0vw;
+    align-self: center;
+
+}
+.left{
+    display: flex;
+}
+.blogtitle{
+    margin: 1vh 2vw 2vh 0vw;
+    
+}
+.blogdesc{
+    margin: 2vh 2vw 1vh 0vw;
+    
+}
+.editbutton{
+    margin-right: 0.5vw;
+    margin-top: 1.5vh;
+}
+.deletebutton{
+    margin-right: 1.3vw;
+}
+.editbutton img{
+    height: 22px;
+    width: 22px;
+}
+.deletebutton img{
+    height: 22px;
+    width: 22px;
+
+}
+button{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border-color: #ccc;
+}
+.addingblog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    background-image: url('../src/components/add1.jpg');
+    background-size: cover;
+}
+.addsubmit{
+    color: rgb(2, 94, 2);
+    font-weight: bold;
+    background-color: rgb(230, 230, 230);
+    width: 10vw;
+    border-style: solid;
+}
+.editsubmit{
+    color: rgb(2, 94, 2);
+    font-weight: bold;
+    background-color: rgb(230, 230, 230);
+    width: 6vw;
+    border-style: solid;
+    font-size: 15px;
+}
+.addsubmit:hover{
+    background-color: rgb(212, 210, 210);
+}
+.adding{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    opacity: 80%;
+    margin-top: 3vh;
+    width: 70%;
+    height: 450px;
+    padding: 10px;
+    border-style: solid;
+    border-color: gray;
+    box-shadow: 20px 10px 30px 10px rgb(170, 168, 168);
+}
+.addingform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3vw;
+}
+.leftt .imgurl{
+    height: 40vh;
+    margin: 2vh;
+    width: 25vw;
+    outline: none;
+    border-style: solid;
+    box-shadow: 10px 10px 20px #ccc;
+    padding: 5px;
+}
+.rightt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.addingform input{
+    height: 30px;
+    margin: 2vh;
+    width: 30vw;
+    outline: none;
+    border-style: solid;
+    box-shadow: 10px 10px 20px #ccc;
+    padding: 5px;
+
+}
+button:hover{
+     cursor: pointer;
+}
+.submit:hover{
+      background-color: rgb(241, 241, 241);
+      width: 100px;
+}
+.welcome{
+
+    background-color: white;
+    background: url('../src/components/img2.jfif');
+    display: flex;
+    height: 92vh;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+
+}
+.contents{
+    color: rgb(7, 0, 7);
+    font-weight: bold;
+    margin-right: -15vw;
+    height: 32vh;
+    text-align: center;
+    width: 80vw;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+    opacity: 0.7;
+    background-color: rgb(241, 241, 241);
+}
+.contents h1{
+    color: rgb(12, 61, 16);
+    font-weight: bold;
+}
+.contents h3{
+    width: 50vw;
+    color: red;
+}
+.arrow{
+    height: 70vh;
+    margin-bottom: 10vw;
+    margin-left: -10vw;
+    align-self: flex-end;
+    color: #0000;
+
+    
+}
+
+@media (min-width:0px) and (max-width:280px) {
+         
+    .login{
+        background-position: 70% 40%;
+        height: 85vh;
+        
+    }
+    .form{
+        width: 220px;
+        height: 45vh;
+        margin-left: 1vw;
+    }
+    form h1{
+        font-size: 42px;
+        color: white;
+        margin-bottom: 1vh;
+    }
+    form input{
+        height: 20px;
+        margin: 2vh;
+        width: 80vw;
+        font-size: 13px;
+        padding: 5px;
+    
+    }
+    form .button{
+        height: 30px;
+        width: 32%;
+        font-size: 17px;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .signupp{
+        font-size: 17px;
+    }
+
+    .welcome{
+        height: 85vh;
+        background-position: 20% 30%;
+    }
+    .contents{
+        margin-right: -46vw;
+        height: 30vh;
+        width: 90vw;
+        font-size: 20px;
+    }
+    .contents h1{
+        color: rgb(12, 61, 16);
+        font-weight: bold;
+        margin-bottom: 2vh;
+    }
+    .contents h3{
+        width: 70vw;
+        color: red;
+    }
+    .arrow{
+        margin-bottom: 35vw;
+        margin-left: -80vw;   
+        
+    }
+
+        
+        .switch li{
+            font-size: 4.5vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .nav{
+            height: 15vh;
+        }
+        .title{
+            font-size: 17px;
+            margin-left: 0vw;
+        }
+    
+        .links button{
+            font-size: 4.5vw;
+        }
+        .card{
+            width: 85vw;
+        }
+        .blogimage{
+              
+            height: 25vh;
+            width: 90vw;
+            align-self: center;
+        }
+        .blogtitle{
+            font-size: 15px;
+        }
+        .blogdesc{
+            font-size: 14px; 
+        }
+        .uname{
+            font-size: 17px;
+        }
+        .profile{
+            height: 5vh;
+            width: 12vw;
+            font-size: 22px;
+            display: flex;
+            margin-right: 3vw;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            
+        }
+        .editbutton {
+            margin-right: 1.5vw;
+        }
+        .deletebutton{
+            margin-right: 2vw;
+            
+        }
+    
+        .editbutton img{
+    
+            height: 14px;
+             width: 14px;
+            
+        }
+        .deletebutton img{
+             
+             height: 14px;
+             width: 14px;
+        }
+
+        .adding{
+                 height: 50vh;
+                 width: 87vw;
+        }
+        .addingform{
+            font-size: 13px;
+        }
+        .adding h1{
+            font-size: 30px;
+            margin-bottom: 3vh;
+        }
+        .addingform input{
+            width: 70vw;
+            height: 13px;
+        }
+        .addsubmit, .editsubmit{
+            width: 25vw;
+            font-size: 14px;
+            height: 27px;
+        }
+        .addingblog{
+            height: 85vh;
+            
+        }
+        .addform input{
+            width: 75vw;
+            height: 7px;
+            font-size: 11px;
+            padding: 10px;
+        }
+        .add{
+            height:57vh;
+            width: 90vw;
+            font-size: 30px;
+
+        }
+        .add h1{
+            font-size: 30px;
+            margin-bottom: 1vh;
+        }
+        .addform .edittitle{
+            margin-left: 1vw;
+            font-size: 20px;
+            margin-bottom: -1vh;
+        }
+        .addform .editdesc{
+            margin-left: 1vw;
+            font-size: 20px;
+            margin-bottom: -1vh;
+
+        }
+        .addform img{
+              
+            height: 25vh;
+            width: 93vw;
+            align-self: center;
+        }
+        .addblog{
+            height: 85vh;
+        }
+        
+    
+}
+
+@media (min-width:281px) and (max-width:450px) {
+
+    .login{
+        background-position: 70% 40%;
+        height: 85vh;
+        
+    }
+    .form{
+        width: 280px;
+        height: 50vh;
+        margin-left: 1vw;
+    }
+    form h1{
+        font-size: 50px;
+        color: white;
+        margin-bottom: 3vh;
+    }
+    form input{
+        height: 25px;
+        margin: 2vh;
+        width: 68vw;
+        font-size: 14px;
+        padding: 5px;
+    
+    }
+    form .button{
+        height: 35px;
+        width: 32%;
+        font-size: 18px;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .signupp{
+        font-size: 19px;
+    }
+
+    .welcome{
+        height: 85vh;
+        background-position: 20% 30%;
+    }
+    .contents{
+        margin-right: -25vw;
+        height: 30vh;
+        width: 90vw;
+        font-size: 25px;
+    }
+    .contents h1{
+        color: rgb(12, 61, 16);
+        font-weight: bold;
+        margin-bottom: 2vh;
+    }
+    .contents h3{
+        width: 90vw;
+        color: red;
+    }
+    .arrow{
+        margin-bottom: 26vw;
+        margin-left: -70vw;   
+        
+    }
+
+
+    .switch li{
+        font-size: 4vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .nav{
+        height: 15vh;
+    }
+    .title{
+        font-size: 20px;
+        margin-left: 0vw;
+    }
+
+    .links button{
+        font-size: 4vw;
+    }
+    .card{
+        width: 85vw;
+    }
+    .profile{
+        height: 5vh;
+        width: 10vw;
+        display: flex;
+        font-size: 28px;
+        margin-right: 3vw;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .blogimage{
+          
+        height: 30vh;
+        width: 90vw;
+        align-self: center;
+    }
+    .blogtitle{
+        font-size: 17px;
+    }
+    .blogdesc{
+        font-size: 16px; 
+    }
+    .uname{
+        font-size: 20px;
+    }
+    .editbutton {
+        margin-right: 1.5vw;
+    }
+    .deletebutton{
+        margin-right: 2vw;
+        
+    }
+
+    .editbutton img{
+
+        height: 18px;
+         width: 18px;
+        
+    }
+    .deletebutton img{
+         
+         height: 18px;
+         width: 18px;
+    }
+    .adding{
+             height: 60vh;
+             width: 87vw;
+    }
+    .addingform{
+        font-size: 15px;
+    }
+    .adding h1{
+        font-size: 33px;
+        margin-bottom: 3vh;
+    }
+    .addingform input{
+        width: 70vw;
+        height: 20px;
+    }
+    .addsubmit, .editsubmit{
+        width: 25vw;
+        font-size: 17px;
+        height: 30px;
+    }
+    .addingblog{
+        height: 85vh;
+        
+    }
+    .addform input{
+        width: 75vw;
+        height: 10px;
+        font-size: 13px;
+        padding: 10px;
+    }
+    .add{
+        height:75vh;
+        width: 92vw;
+        font-size: 30px;
+    }
+    .add h1{
+        font-size: 33px;
+        margin-bottom: 2vh;
+    }
+    .addform .edittitle{
+        margin-left: 1vw;
+        font-size: 22px;
+    }
+    .addform .editdesc{
+        margin-left: 1vw;
+        font-size: 22px;
+    }
+    .addform img{
+          
+        height: 32vh;
+        width: 93vw;
+        align-self: center;
+    }
+    .addblog{
+        height: 85vh;
+    }
+    
+}
+
+@media (min-width:451px) and (max-width:550px) {
+
+    .login{
+        background-position: 70% 40%;
+        height: 90vh;
+        
+    }
+    .form{
+        width: 370px;
+        height: 65vh;
+        margin-left: 3vw;
+    }
+    form h1{
+        font-size: 60px;
+        color: white;
+        margin-bottom: 3vh;
+    }
+    form input{
+        height: 30px;
+        margin: 2vh;
+        width: 60vw;
+        font-size: 16px;
+        padding: 5px;
+    
+    }
+    form .button{
+        height: 37px;
+        width: 32%;
+        font-size: 23px;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .signupp{
+        font-size: 22px;
+    }
+
+    .welcome{
+        height: 90vh;
+        background-position: 20% 30%;
+    }
+    .contents{
+        margin-right: 7vw;
+        height: 30vh;
+        width: 90vw;
+        font-size: 25px;
+    }
+    .contents h1{
+        color: rgb(12, 61, 16);
+        font-weight: bold;
+        margin-bottom: 2vh;
+    }
+    .contents h3{
+        width: 60vw;
+        color: red;
+    }
+    .arrow{
+        margin-bottom: 26vw;
+        margin-left: -80vw;   
+        
+    }
+
+    .switch li{
+        font-size: 3vw;
+    }
+    .nav{
+        height: 10vh;
+    }
+    .title{
+        font-size: 25px;
+    }
+
+    .links button{
+        font-size: 3vw;
+    }
+    .card{
+        width: 90vw;
+    }
+    .profile{
+        height: 5vh;
+        width: 7vw;
+        font-size: 25px;
+        display: flex;
+        margin-right: 2vw;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .blogimage{
+          
+        height: 35vh;
+        width: 90vw;
+        align-self: center;
+    }
+    .blogtitle{
+        font-size: 20px;
+    }
+    .blogdesc{
+        font-size: 19px; 
+    }
+    .uname{
+        font-size: 24px;
+    }
+    .editbutton {
+        margin-right: 1.5vw;
+    }
+    .deletebutton{
+        margin-right: 2vw;
+        
+    }
+
+    .editbutton img{
+
+        height: 21px;
+         width: 21px;
+        
+    }
+    .deletebutton img{
+         
+         height: 21px;
+         width: 21px;
+    }
+    .adding{
+             height: 65vh;
+             width: 80vw;
+    }
+    .addingform{
+        font-size: 18px;
+    }
+    .adding h1{
+        font-size: 38px;
+        margin-bottom: 3vh;
+    }
+    .addingform input{
+        width: 55vw;
+        height: 27px;
+    }
+    .addsubmit, .editsubmit{
+        width: 20vw;
+        font-size: 20px;
+        height: 35px;
+    }
+    .addingblog{
+        height: 90vh;
+        
+    }
+    .addform input{
+        width: 75vw;
+        height: 15px;
+        font-size: 15px;
+        padding: 10px;
+    }
+    .add{
+        height:80vh;
+        width: 92vw;
+        font-size: 30px;
+    }
+    .add h1{
+        font-size: 38px;
+        margin-bottom: 2vh;
+    }
+    .addform .edittitle{
+        margin-left: 1vw;
+        font-size: 25px;
+    }
+    .addform .editdesc{
+        margin-left: 1vw;
+        font-size: 25px;
+    }
+    .addform img{
+          
+        height: 35vh;
+        width: 90vw;
+        align-self: center;
+    }
+    .addblog{
+        height: 90vh;
+    }
+
+}
+
+@media (min-width:551px) and (max-width:768px) {
+     
+    .login{
+        background-position: 70% 40%;
+        
+    }
+    .form{
+        width: 500px;
+        height: 65vh;
+        margin-left: 3vw;
+    }
+    form h1{
+        font-size: 90px;
+        color: white;
+        margin-bottom: 3vh;
+    }
+    form input{
+        height: 40px;
+        margin: 2vh;
+        width: 50vw;
+        font-size: 22px;
+        padding: 5px;   
+    }
+    form .button{
+        height: 55px;
+        width: 40%;
+        font-size: 30px;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .signupp{
+        font-size: 29px;
+    }
+    .contents{
+        margin-right: -2vw;
+        height: 29vh;
+        width: 90vw;
+    }
+
+    .contents h3{
+        width: 70vw;
+    }
+    .arrow{
+        margin-bottom: 29vw;
+        margin-left: -70vw;        
+    }
+
+    .switch li{
+        font-size: 3.7vw;
+    }
+    .nav{
+        height: 10vh;
+    }
+
+    .links button{
+        font-size: 3.4vw;
+    }
+    .blogtitle{
+        font-size: 30px;
+    }
+    .blogdesc{
+        font-size: 26px; 
+    }
+    .blogimage{
+          
+        height: 35vh;
+        width: 90vw;
+        align-self: center;
+    }
+    .profile{
+
+        display: flex;
+        margin-right: 2vw;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .uname{
+        font-size: 33px;
+    }
+    .editbutton {
+        margin-right: 1.5vw;
+    }
+    .deletebutton{
+        margin-right: 2vw;
+        
+    }
+
+
+    .editbutton img{
+
+        height: 32px;
+         width: 32px;
+        
+    }
+    .deletebutton img{
+         
+         height: 32px;
+         width: 32px;
+    }
+    .adding{
+             height: 65vh;
+             width: 80vw;
+    }
+    .addingform{
+        font-size: 30px;
+    }
+    .adding h1{
+        font-size: 55px;
+        margin-bottom: 3vh;
+    }
+    .addingform input{
+        width: 55vw;
+        height: 40px;
+    }
+    .addsubmit, .editsubmit{
+        width: 20vw;
+        font-size: 28px;
+        height: 50px;
+    }
+    .addingblog{
+        height: 90vh;
+        overflow-y: hidden;
+    }
+    .addform input{
+        width: 65vw;
+        height: 40px;
+        font-size: 25px;
+        padding: 10px;
+    }
+    .add{
+        height:80vh;
+        width: 92vw;
+        font-size: 30px;
+    }
+    .add h1{
+        font-size: 60px;
+        margin-bottom: 3vh;
+    }
+    .addform .edittitle{
+        margin-left: 1vw;
+    }
+    .addform .editdesc{
+        margin-left: 1vw;
+    }
+    .addblog{
+        height: 90vh;
+    }
+}
+
+@media (min-width:769px) and (max-width:991px) {
+    
+    .login{
+        background-position: 70% 40%;
+        height: 90.033vh;
+        
+    }
+    .form{
+        width: 550px;
+        height: 65vh;
+        margin-left: 3vw;
+    }
+    form h1{
+        font-size: 90px;
+        color: white;
+        margin-bottom: 3vh;
+    }
+    form input{
+        height: 40px;
+        margin: 2vh;
+        width: 50vw;
+        font-size: 22px;
+        padding: 5px;
+    
+    }
+    form .button{
+        height: 55px;
+        width: 40%;
+        font-size: 30px;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .signupp{
+        font-size: 29px;
+    }
+
+    .welcome{
+
+        background-color: white;
+        background: url('../src/components/img2.jfif');
+        display: flex;
+        height: 90vh;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        background-position: 20% 30%;
+    
+    }
+    .contents{
+        color: rgb(7, 0, 7);
+        font-weight: bold;
+        margin-right: 1vw;
+        height: 30vh;
+        text-align: center;
+        width: 90vw;
+        padding: 10px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 40px;
+        opacity: 0.7;
+        background-color: rgb(241, 241, 241);
+    }
+    .contents h1{
+        color: rgb(12, 61, 16);
+        font-weight: bold;
+        margin-bottom: 2vh;
+    }
+    .contents h3{
+        width: 60vw;
+        color: red;
+    }
+    .arrow{
+
+        margin-bottom: 26vw;
+        margin-left: -80vw;
+    
+        
+    }
+
+    .switch li{
+        font-size: 3.3vw;
+    }
+    .nav{
+        height: 10vh;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .card{
+        width: 90vw;
+    }
+
+    .links button{
+        font-size: 3.3vw;
+    }
+    .blogtitle{
+        font-size: 30px;
+    }
+    .blogdesc{
+        font-size: 26px; 
+    }
+    .uname{
+        font-size: 32px;
+    }
+    .editbutton {
+        margin-right: 1.5vw;
+    }
+    .deletebutton{
+        margin-right: 2vw;
+        
+    }
+
+    .editbutton img{
+
+        height: 32px;
+         width: 32px;
+        
+    }
+    .deletebutton img{
+         
+         height: 32px;
+         width: 32px;
+    }
+    .adding{
+             height: 65vh;
+             width: 80vw;
+    }
+    .addingform{
+        font-size: 30px;
+    }
+    .adding h1{
+        font-size: 55px;
+        margin-bottom: 3vh;
+    }
+    .addingform input{
+        width: 55vw;
+        height: 40px;
+    }
+    .addsubmit, .editsubmit{
+        width: 20vw;
+        font-size: 28px;
+        height: 50px;
+    }
+    .addingblog{
+        height: 90vh;
+        overflow-y: hidden;
+    }
+    .addform input{
+        width: 65vw;
+        height: 40px;
+        font-size: 25px;
+        padding: 10px;
+    }
+    .add{
+        height:80vh;
+        width: 92vw;
+        font-size: 30px;
+    }
+    .add h1{
+        font-size: 60px;
+        margin-bottom: 3vh;
+    }
+    .addform .edittitle{
+        margin-left: 1vw;
+    }
+    .addform .editdesc{
+        margin-left: 1vw;
+    }
+    .addblog{
+        height: 90vh;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+
+    .add{
+        height: 88vh;
+    }
+    .add h1{
+        font-size: 40px;
+        margin-bottom: 1vh;
+    }
+    .form{
+        width: 320px;
+        height: 65vh;
+        margin-left: 52vw;
+    }
+
+    form .button{
+        margin: 2vh;
+        font-size: 17px;
+
+    }
+
+    .arrow{
+        margin-bottom: 12vw;
+        margin-left: -12vw;       
+    }
+
+
+
+    
+    
+}
+@media (min-width:1201px) and (max-width:1280px) {
+    
+    .form{
+        width: 400px;
+        height: 65vh;
+        margin-left: 55vw;
+    }
+
+    form .button{
+        margin: 2vh;
+        font-size: 17px;
+
+    }
+    .arrow{
+
+        margin-bottom: 12vw;
+        margin-left: -18vw;    
+        
+    }
+}
